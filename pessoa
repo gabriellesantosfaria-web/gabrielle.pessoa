@@ -1,0 +1,12 @@
+class pessoa{
+      constructor(Nome, idade){
+    } this.nome= nome; 
+       this.idade= idade;
+
+       imprimirDetalhes(){
+        return
+        Nome:${this.Nome}
+        idade:${this.idade}
+
+
+
