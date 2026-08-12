@@ -1,0 +1,20 @@
+package java;
+public class main{
+    public static void Pessoa(String[]args){
+        Pessoa pessoa1 = new Pessoa("João",20);
+        Pessoa pessoa2 = new Pessoa("Maria antonia",12);
+
+        Pessoa pessoa3 = new Pessoa("Nemo",20);
+
+        Pessoa[] acervo ={
+            Pessoa1,
+            Pessoa2,
+            Pessoa3
+        };
+
+        for (Pessoa pessoa :acervo){
+            pessoa.apresentar();
+            System.out.printlin("______________");
+        }
+    }
+}
